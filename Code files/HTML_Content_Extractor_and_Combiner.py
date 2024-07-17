@@ -54,7 +54,7 @@ def process_html_files_in_directory(directory_path, output_file_path):
 directory_path = r'C:\Users\amitb\Desktop\Coding\Industry 4.0 project\wipro_scraped_data\htmls'
 
 # Output file path
-output_file_path = r'C:\Users\amitb\Desktop\Coding\Industry 4.0 project\wipro_scraped_data\combined_main_content.txt'
+output_file_path = r'C:\Users\amitb\Desktop\Coding\Industry 4.0 project\wipro_scraped_data\combined_html_content.txt'
 
 # Process HTML files and combine content
 process_html_files_in_directory(directory_path, output_file_path)
