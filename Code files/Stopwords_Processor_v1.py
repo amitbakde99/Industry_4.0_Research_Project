@@ -59,8 +59,8 @@ def main(input_file_path, output_file_path):
     print("Process completed")
 
 # Example usage
-input_file_path = r'C:\Users\amitb\Desktop\Coding\Industry 4.0 project\wipro_scraped_data\combined_main_content.txt'  # Replace with the actual path to your input text file
-output_file_path = r'C:\Users\amitb\Desktop\Coding\Industry 4.0 project\wipro_scraped_data\output_file.txt'  # Replace with the actual path to your output text file
+input_file_path = r'C:\path\to\your\text_file.txt'  # Replace with the actual path to your input text file
+output_file_path = r'C:\path\to\your\output_file.txt'  # Replace with the actual path to your output text file
 
 main(input_file_path, output_file_path)
 
@@ -96,7 +96,7 @@ def main(file_path):
     return top_words
 
 # Example usage
-output_file_path = r'C:\Users\amitb\Desktop\Coding\Industry 4.0 project\wipro_scraped_data\output_file.txt'  # Replace with the actual path to your output text file
+output_file_path = r'C:\path\to\your\output_file.txt'  # Replace with the actual path to your output text file
 
 top_words = main(output_file_path)
 print("Top 5 most repeated words:")
