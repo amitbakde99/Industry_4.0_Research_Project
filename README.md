@@ -1,18 +1,57 @@
-# Industry_4.0_Research_Project
+# Industry 4.0 Web Scraping and NLP Analysis
 
-* Added Nifty50 & Nifty100 companies list updated as of July 12, 2024.
+## 📌 Project Overview
 
-* ## Current process 
-  - Start
-  - Run scraper_v6.py
-  - Scraper creates 2 folders: documents and htmls
-  - Run HTML_Content_Extractor_and_Combiner.py by following instructions.
-  -  Program creates combined_html_content.txt
-  -  Use combined_html_content.txt for further analysis
-  - End ​
+This project aims to analyze the adoption of **Industry 4.0 technologies** across various organizations by extracting and processing publicly available data from company websites. The project employs **web scraping, natural language processing (NLP), and keyword frequency analysis** to identify companies working towards digital transformation.
 
-* ### Instructions for HTML Content Extractor and Combiner
+Key **Industry 4.0** technologies considered in this analysis include:
+- **Internet of Things (IoT)**
+- **Artificial Intelligence (AI) & Machine Learning (ML)**
+- **Cloud Computing**
+- **Big Data & Analytics**
+- **Blockchain**
+- **Automation & Robotics**
+- **Smart Manufacturing & Digital Twins**
 
-   * Set the Directory Path: Update the directory_path variable to the path of the directory containing your HTML files.
-   * Set the Output File Path: Update the output_file_path variable to the desired path for the combined output text file.
-   * Run the Script: Execute the script in your Python environment. It will process all HTML files in the specified directory and combine the extracted content into a single text file.
+## 🔍 Objectives
+
+1. **Web Scraping**: Extract company-related information from websites (mainly the "Careers" section) to analyze their Industry 4.0 initiatives.
+2. **Text Processing**: Clean and preprocess the extracted text using NLP techniques.
+3. **Keyword Frequency Analysis**: Identify key Industry 4.0-related terms in the extracted content.
+4. **Co-occurrence Matrix**: Analyze relationships between Industry 4.0 keywords using a co-occurrence matrix.
+5. **Insights & Visualization**: Generate meaningful insights regarding the adoption of Industry 4.0 across different sectors.
+
+---
+
+
+## 🛠 Technologies Used
+
+* Python (Primary language)
+* Selenium & BeautifulSoup (Web scraping)
+* NLTK & spaCy (Text processing)
+* Pandas & NumPy (Data handling)
+* Matplotlib & Seaborn (Data visualization)
+* NetworkX (Co-occurrence matrix visualization)
+
+## 📊 Methodology
+
+1️⃣ Web Scraping
+
+* Target websites: Company career pages, technology blogs, and reports.
+* Tools used: Selenium, BeautifulSoup for extracting raw HTML content.
+* Filtering: Avoiding unnecessary elements such as headers, footers, ads, and repetitive content.
+
+2️⃣ Text Preprocessing
+
+* Tokenization & Lemmatization using spaCy.
+* Stop words removal to refine meaningful content.
+
+3️⃣ Keyword Frequency & Co-occurrence Analysis
+
+* Identifying top Industry 4.0-related keywords in company descriptions.
+* Generating a co-occurrence matrix to analyze keyword relationships.
+
+4️⃣ Insights & Visualization
+
+Using matplotlib, seaborn, and NetworkX to generate interactive graphs.
+
